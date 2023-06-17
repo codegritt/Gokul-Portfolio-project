@@ -116,55 +116,85 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Frontend Developer",
+    company_name: "Upwork",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed full-stack web applications, processed, analyzed, and rendered data visually usingHtml5, Css3, Javascript, Angular, React",
+      "Collaborated and managed projects on Git, Github",
+      "Built custom websites using Bootstrap including custom plug-ins and filters",
+      "Designed and developed web applications across multiple APIs, third-party integrations and databases",
+      "Used Figma UI to create websites, logos. Angrytools to create CSS gradients, animista to create CSS animations"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software Engineer IV",
+    company_name: "Photon",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2022 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed non relational databases hoisting data on MongoDB servers & tested the backend API on Postman",
+      "Developed a playlist app using MEAN stack technology & successfully transferred data from the UI to the database",
+      "Used CORS, express, path, dotenv, body-parser, mongoose, http, port while writing server side backend code",
+      "Used get, post, update, delete to perform CRUD operations on the RESTful APIs",
+      "Made sure the entire code is optimized, reusable, simple for smooth user/ client experience"
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Software Developer",
+    company_name: "Larsen & Toubro",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2022 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on ASSET MANAGEMENT SYSTEM (AMS4.0) movement module which enable users in the L&T community to move, transport, repair & buy new components for the asset",
+      "Created various angular components for dispatching assets, generating challan, receipts & commissioning",
+      "Created UI view part for Dispatch advice by databinding the DA numbers for the asset",
+      "Created Asset creation UI page for creating vehicles' source, destination, transport, accessories & other details",
+      "Optimized the written code lines to simplify as much as possible",
+      
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Software Consultant",
+    company_name: "ISYS Technologies",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2018 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created MERN, MEAN stack projects using Angular, React frameworks, employee database list using Angular material table",
+      "Created routing & stored, retrieved data form fake backend server & live server using Mlab database, tested Get, Post, Delete, Update APIs using Postman",
+      "Worked on authentication, authorization using Node.js & stored it in Local, Session , Cookie storage",
+      "Used Css techniques to create hamburger, accordion for various projects, forked, merged, transferred projects on Github",
+      "Learnt Git version control commands"
+    ],
+  },
+  {
+    title: "Control Panel Engineer",
+    company_name: "Energy Tec",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jun 2017 - Sep 2018",
+    points: [
+     "Fitting the electrical components on the panel as per manufacturers design, regulated the power supply with the help of auto transformer switches and circuit breaker",
+     "Protection of electrical and mechanical systems, measured & Controlled different Electrical Parameters",
+     "Power distribution to the electrical systems/machines, isolation of the electrical system",
+     "Testing the control panel for proper functioning as per relevant specifications"
+    ],
+  },
+  {
+    title: "Student Intern",
+    company_name: "Larsen & Toubro",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Dec 2014 - Jan 2015",
+    points: [
+"Interned at the shipbuilding section of Larsen & Toubro Ltd ",
+"Got hands on experience on how the technology & designing section of the company worked on developing the ideas of manufacturing real time commercial & merchant ships & how the lighting system applied",
+"Observed the work culture,Organizational behavior,team working skills"
     ],
   },
 ];
