@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+ 
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,16 +35,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_yg13jh5',
+        'template_gemzqiq',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Gokul",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "gokulchandan18@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'ck112Az-1HWujDIKN'
       )
       .then(
         () => {
@@ -73,7 +75,34 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
+      <div >
+     <h1 className="text-2xl">GOKUL CHANDAN VA</h1>
+        <p className="text-sm">
+          gokulchandan18@gmail.com
+        </p>
+        <p className="text-sm">
+          <a href=" https://www.linkedin.com/in/gokul-va-14a304a5/">
+          https://www.linkedin.com/in/gokul-va-14a304a5/
+          </a>
+     
+        </p >
+        <p className="text-sm">
+          <a href="   https://github.com/codegritt">
+          https://github.com/codegritt
+          </a>
+     
+        </p>
+        <p className="text-sm">
+        (+91) 9442261178 
+        </p>
+        <p className="text-sm">
+        Notice period: Immediate joiner
+        </p>
+        <p className="text-sm">
+        Chennai, Tamil Nadu, India
+        </p>
+        </div>
 
         <form
           ref={formRef}
