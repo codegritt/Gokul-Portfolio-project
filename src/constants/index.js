@@ -145,7 +145,7 @@ const experiences = [
     company_name: "Larsen & Toubro",
     icon: "../../src/assets/lt.jpg",
     iconBg: "#383E56",
-    date: "May 2022 - Jul 2023",
+    date: "May 2022 - Jul 2022",
     points: [
       "Worked on ASSET MANAGEMENT SYSTEM (AMS4.0) movement module which enable users in the L&T community to move, transport, repair & buy new components for the asset",
       "Created various angular components for dispatching assets, generating challan, receipts & commissioning",
