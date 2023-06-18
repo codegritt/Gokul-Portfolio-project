@@ -19,11 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+
+
 } from "../assets";
+
+
 
 export const navLinks = [
   {
@@ -118,7 +119,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Upwork",
-    icon: starbucks,
+    icon: "../../src/assets/upwork.png",
     iconBg: "#383E56",
     date: "Dec 2022 - Present",
     points: [
@@ -132,7 +133,7 @@ const experiences = [
   {
     title: "Software Engineer IV",
     company_name: "Photon",
-    icon: tesla,
+    icon: "../../src/assets/photon.png",
     iconBg: "#E6DEDD",
     date: "Sep 2022 - Nov 2022",
     points: [
@@ -146,7 +147,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Larsen & Toubro",
-    icon: shopify,
+    icon: "../../src/assets/lt.jpg",
     iconBg: "#383E56",
     date: "May 2022 - Jul 2023",
     points: [
@@ -161,7 +162,7 @@ const experiences = [
   {
     title: "Software Consultant",
     company_name: "ISYS Technologies",
-    icon: meta,
+    icon: "../../src/assets/isys.png",
     iconBg: "#E6DEDD",
     date: "Sep 2018 - July 2022",
     points: [
@@ -175,7 +176,7 @@ const experiences = [
   {
     title: "Control Panel Engineer",
     company_name: "Energy Tec",
-    icon: tesla,
+    icon: "../../src/assets/energytec.png",
     iconBg: "#E6DEDD",
     date: "Jun 2017 - Sep 2018",
     points: [
@@ -188,7 +189,7 @@ const experiences = [
   {
     title: "Student Intern",
     company_name: "Larsen & Toubro",
-    icon: tesla,
+    icon: "../../src/assets/lt.jpg",
     iconBg: "#E6DEDD",
     date: "Dec 2014 - Jan 2015",
     points: [
@@ -218,7 +219,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Gokul optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -228,13 +229,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ecommerce React.js MERN stack project",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created an Ecommerce page where I used react router, login auth maintained the state and dispatched the actions using Redux",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
@@ -245,50 +258,74 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:"/src/assets/snapdeal.png",
+    source_code_link: "https://github.com/codegritt/MERN-Redux-shop-master",
   },
   {
-    name: "Job IT",
+    name: "Sample Next.js project",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a user feed comments page where I used Next.js framework & optimized the whole app by creating API route endpoints to perform CRUD operations & ran both client & server side scripting code on the same port",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "firebase",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "pink-text-gradient",
+      },
+      {
         name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "next.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "/src/assets/nextjs.png",
+    source_code_link: "https://github.com/codegritt/Promptopia-Next.js-crud-app",
   },
   {
-    name: "Trip Guide",
+    name: "Developer Portfolio project using Vite react",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive developer portfolio I desined to showcase to resume displaying my frontend skills required for the industry",
     tags: [
       {
-        name: "nextjs",
+        name: "vite-react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwindCss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "three.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "react-tilt",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "framermotion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "threefiber",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "/src/assets/portfolio.png",
+    source_code_link: "https://github.com/codegritt/Gokul-Portfolio-project",
   },
 ];
 
