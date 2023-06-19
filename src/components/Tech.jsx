@@ -10,12 +10,22 @@ const Tech = () => {
       {" "}
       <h2 className={`${styles.sectionHeadText}`}>Skills</h2>
       <div className="p-5 pl-0">
-        <p className="text-lg font-bold">Web development :</p>
-        <p>HTML5, CSS3, SASS, TypeScript, Bootstrap</p>
+
+ <p className="text-lg font-bold">Web development :
+         
+        </p>
+   <p>HTML5, CSS3, SASS, TypeScript, Bootstrap</p>
+
         <p className="text-lg font-bold">
           Programming Languages :
+          
         </p>
-        <p>JavaScript(ES6)</p>
+  <p>JavaScript(ES6)</p>
+  
+
+    
+       
+      
         <p className=" text-lg font-bold">
           Frameworks :
         </p>
