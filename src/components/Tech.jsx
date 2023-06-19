@@ -18,47 +18,81 @@ const Tech = () => {
 >
       <h2 className={`${styles.sectionHeadText}`}>Skills</h2>
       </motion.div>
-
       
-      <div className="p-5 pl-0">
-
- <p className="text-lg font-bold">Web development :
-         
-        </p>
-   <p>HTML5, CSS3, SASS, TypeScript, Bootstrap</p>
-
-        <p className="text-lg font-bold">
-          Programming Languages :
-          
-        </p>
-  <p>JavaScript(ES6)</p>
+      <div class="relative overflow-x-auto">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+     
+        <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white text-xl">
+                Web development
+                </th>
+             
+                <td class="px-6 py-4 text-lg">
+                HTML5, CSS3, SASS, TypeScript, Bootstrap
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white text-xl">
+                Programming Languages
+                </th>
+             
+                <td class="px-6 py-4 text-lg" >
+                JavaScript(ES6)
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white text-xl">
+                Frameworks 
+                </th>
+             
+                <td class="px-6 py-4 text-lg">
+                React.js, Angular, Node.js, Tailwind CSS
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white text-xl">
+                Libraries  
+                </th>
+             
+                <td class="px-6 py-4 text-lg">
+                Redux, Express.js, Mongoose
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white text-xl">
+                Databases 
+                </th>
+             
+                <td class="px-6 py-4 text-lg">
+                MongoDB, Firebase, Google Cloud, AWS
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white text-xl">
+                Tools/ IDE 
+                </th>
+             
+                <td class="px-6 py-4 text-lg">
+                VS code, NPM, Git, Github, Postman API, Mlab, Docker
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white text-xl">
+                Hands-on experience 
+                </th>
+             
+                <td class="px-6 py-4 text-lg">
+                Next.js, Strapi, Stripe
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
   
 
-    
-       
-      
-        <p className=" text-lg font-bold">
-          Frameworks :
-        </p>
-        <p>React.js, Angular, Node.js, Tailwind CSS</p>
-        <p className=" text-lg font-bold">
-          Libraries :
-        </p>
-        <p>Redux, Express.js, Mongoose</p>
-        <p className=" text-lg font-bold">
-          Databases :
-        </p>
-        <p> MongoDB, Firebase, Google Cloud, AWS</p>
-        <p className=" text-lg font-bold">
-          Tools/ IDE :
-        
-        </p>
-        <p>VS code, NPM, Git, Github, Postman API, Mlab, Docker</p>
-        <p className=" text-lg font-bold">
-          Hands-on experience :
-        </p>
-        <p>Next.js, Strapi, Stripe</p>
-      </div>
+
+ 
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
@@ -66,6 +100,7 @@ const Tech = () => {
           </div>
         ))}
       </div>
+  
       <div >
       <motion.div 
  
