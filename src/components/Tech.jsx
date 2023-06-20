@@ -108,7 +108,7 @@ const Tech = () => {
 
 >
       <h2 className={`${styles.sectionHeadText}`}>Education</h2>
-  
+      </motion.div>
 
       <div class="relative overflow-x-auto">
     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -147,7 +147,7 @@ const Tech = () => {
         </tbody>
     </table>
 </div>
-</motion.div>
+
       </div>
     </>
   );

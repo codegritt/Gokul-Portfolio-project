@@ -115,7 +115,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Upwork",
-    icon: "../../src/assets/upwork.png",
+    icon: "../assets/upwork.png",
     iconBg: "#383E56",
     date: "Dec 2022 - Present",
     points: [
@@ -129,7 +129,7 @@ const experiences = [
   {
     title: "Software Engineer IV",
     company_name: "Photon",
-    icon: "../../src/assets/photon.png",
+    icon: "../assets/photon.png",
     iconBg: "#E6DEDD",
     date: "Sep 2022 - Nov 2022",
     points: [
@@ -143,7 +143,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Larsen & Toubro",
-    icon: "../../src/assets/lt.jpg",
+    icon: "../assets/lt.jpg",
     iconBg: "#383E56",
     date: "May 2022 - Jul 2022",
     points: [
@@ -158,7 +158,7 @@ const experiences = [
   {
     title: "Software Consultant",
     company_name: "ISYS Technologies",
-    icon: "../../src/assets/isys.png",
+    icon: "../assets/isys.png",
     iconBg: "#E6DEDD",
     date: "Sep 2018 - July 2022",
     points: [
@@ -172,7 +172,7 @@ const experiences = [
   {
     title: "Control Panel Engineer",
     company_name: "Energy Tec",
-    icon: "../../src/assets/energytec.png",
+    icon: "../assets/energytec.png",
     iconBg: "#E6DEDD",
     date: "Jun 2017 - Sep 2018",
     points: [
@@ -185,7 +185,7 @@ const experiences = [
   {
     title: "Student Intern",
     company_name: "Larsen & Toubro",
-    icon: "../../src/assets/lt.jpg",
+    icon: "../assets/lt.jpg",
     iconBg: "#E6DEDD",
     date: "Dec 2014 - Jan 2015",
     points: [
@@ -254,7 +254,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:"/src/assets/snapdeal.png",
+    image:"../assets/snapdeal.png",
     source_code_link: "https://github.com/codegritt/MERN-Redux-shop-master",
   },
   {
@@ -287,7 +287,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/src/assets/nextjs.png",
+    image: "../assets/nextjs.png",
     source_code_link: "https://github.com/codegritt/Promptopia-Next.js-crud-app",
   },
   {
@@ -320,7 +320,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/src/assets/portfolio.png",
+    image: "../assets/portfolio.png",
     source_code_link: "https://github.com/codegritt/Gokul-Portfolio-project",
   },
 ];
