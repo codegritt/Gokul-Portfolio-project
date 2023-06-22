@@ -11,8 +11,6 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 
-
-
 const ExperienceCard = ({ experience }) => {
   return (
  
