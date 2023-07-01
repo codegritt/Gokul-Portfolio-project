@@ -114,8 +114,8 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
-    company_name: "Upwork",
-    icon: "../assets/upwork.png",
+    company_name: "Freelance (Remote)",
+    icon: "../assets/freelancer.png",
     iconBg: "#383E56",
     date: "Dec 2022 - Present",
     points: [
@@ -123,7 +123,7 @@ const experiences = [
       "Collaborated and managed projects on Git, Github",
       "Built custom websites using Bootstrap including custom plug-ins and filters",
       "Designed and developed web applications across multiple APIs, third-party integrations and databases",
-      "Used Figma UI to create websites, logos. Angrytools to create CSS gradients, animista to create CSS animations"
+      "Created an ecommerce, next.js, developer portfolio project and successfully deployed it"
     ],
   },
   {
