@@ -16,11 +16,7 @@ import {
   figma,
   docker,
   threejs,
-
-
 } from "../assets";
-
-
 
 export const navLinks = [
   {
@@ -114,16 +110,27 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
+    company_name: "Saaragh Solutions Private Limited",
+    icon: "../assets/1624366052130.jpeg",
+    iconBg: "#383E56",
+    date: "Jul 2023 - Present",
+    points: [
+      "Working on code migration from Angular1 & 2 to React16 on a goal to merge YUVO & HReasily companies together",
+      "Worked on modules such as Subsidiary companies, Audit logs, Reports, Group directory, Employee calendar by re-writing their functionalities using custom hooks extensively managing their states using React",
+    ],
+  },
+  {
+    title: "Frontend Developer",
     company_name: "Freelance (Remote)",
     icon: "../assets/freelancer.png",
     iconBg: "#383E56",
-    date: "Dec 2022 - Present",
+    date: "Dec 2022 - Jun 2023",
     points: [
       "Developed full-stack web applications, processed, analyzed, and rendered data visually usingHtml5, Css3, Javascript, Angular, React",
       "Collaborated and managed projects on Git, Github",
       "Built custom websites using Bootstrap including custom plug-ins and filters",
       "Designed and developed web applications across multiple APIs, third-party integrations and databases",
-      "Created an ecommerce, next.js, developer portfolio project and successfully deployed it"
+      "Created an ecommerce, next.js, developer portfolio project and successfully deployed it",
     ],
   },
   {
@@ -137,7 +144,7 @@ const experiences = [
       "Developed a playlist app using MEAN stack technology & successfully transferred data from the UI to the database",
       "Used CORS, express, path, dotenv, body-parser, mongoose, http, port while writing server side backend code",
       "Used get, post, update, delete to perform CRUD operations on the RESTful APIs",
-      "Made sure the entire code is optimized, reusable, simple for smooth user/ client experience"
+      "Made sure the entire code is optimized, reusable, simple for smooth user/ client experience",
     ],
   },
   {
@@ -152,7 +159,6 @@ const experiences = [
       "Created UI view part for Dispatch advice by databinding the DA numbers for the asset",
       "Created Asset creation UI page for creating vehicles' source, destination, transport, accessories & other details",
       "Optimized the written code lines to simplify as much as possible",
-      
     ],
   },
   {
@@ -166,7 +172,7 @@ const experiences = [
       "Created routing & stored, retrieved data form fake backend server & live server using Mlab database, tested Get, Post, Delete, Update APIs using Postman",
       "Worked on authentication, authorization using Node.js & stored it in Local, Session , Cookie storage",
       "Used Css techniques to create hamburger, accordion for various projects, forked, merged, transferred projects on Github",
-      "Learnt Git version control commands"
+      "Learnt Git version control commands",
     ],
   },
   {
@@ -176,10 +182,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jun 2017 - Sep 2018",
     points: [
-     "Fitting the electrical components on the panel as per manufacturers design, regulated the power supply with the help of auto transformer switches and circuit breaker",
-     "Protection of electrical and mechanical systems, measured & Controlled different Electrical Parameters",
-     "Power distribution to the electrical systems/machines, isolation of the electrical system",
-     "Testing the control panel for proper functioning as per relevant specifications"
+      "Fitting the electrical components on the panel as per manufacturers design, regulated the power supply with the help of auto transformer switches and circuit breaker",
+      "Protection of electrical and mechanical systems, measured & Controlled different Electrical Parameters",
+      "Power distribution to the electrical systems/machines, isolation of the electrical system",
+      "Testing the control panel for proper functioning as per relevant specifications",
     ],
   },
   {
@@ -189,9 +195,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2014 - Jan 2015",
     points: [
-"Interned at the shipbuilding section of Larsen & Toubro Ltd ",
-"Got hands on experience on how the technology & designing section of the company worked on developing the ideas of manufacturing real time commercial & merchant ships & how the lighting system applied",
-"Observed the work culture,Organizational behavior,team working skills"
+      "Interned at the shipbuilding section of Larsen & Toubro Ltd ",
+      "Got hands on experience on how the technology & designing section of the company worked on developing the ideas of manufacturing real time commercial & merchant ships & how the lighting system applied",
+      "Observed the work culture,Organizational behavior,team working skills",
     ],
   },
 ];
@@ -225,7 +231,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ecommerce React.js MERN stack project",
+    name: "Ecommerce App MERN stack project",
     description:
       "Created an Ecommerce page where I used react router, login auth maintained the state and dispatched the actions using Redux",
     tags: [
@@ -254,20 +260,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:"../assets/snapdeal.png",
+    image: "../assets/snapdeal.png",
     source_code_link: "https://github.com/codegritt/MERN-Redux-shop-master",
   },
   {
-    name: "Sample Next.js project",
+    name: "Expense Tracker App project",
     description:
-      "Created a user feed comments page where I used Next.js framework & optimized the whole app by creating API route endpoints to perform CRUD operations & ran both client & server side scripting code on the same port",
+      "Created a real time Expense tracker app using React.js as framework, Express.js, MongoDB to handle the database, Tailwind CSS, Styled components for styling, used useEffect(), useContext() hooks for API implementation",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "mongoDB",
         color: "yellow-text-gradient",
       },
       {
@@ -283,12 +289,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "next.js",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: "../assets/nextjs.png",
-    source_code_link: "https://github.com/codegritt/Promptopia-Next.js-crud-app",
+    image: "../assets/MoneyManager.png",
+    source_code_link:
+      "https://github.com/codegritt/Expense-tracker-project---React-Vite",
   },
   {
     name: "Developer Portfolio project using Vite react",
@@ -300,7 +307,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "tailwindCss",
+        name: "tailwindCSS",
         color: "green-text-gradient",
       },
       {
